@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de Privacidade — Praelo</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; line-height: 1.6;
+         max-width: 720px; margin: 0 auto; padding: 24px 16px 48px; background: #f7faf8; color: #1f2a24; }
+  @media (prefers-color-scheme: dark) { body { background: #141a17; color: #e3ebe6; } a { color: #8fd3ad; } }
+  h1 { font-size: 1.8rem; margin-bottom: 0; }
+  h2 { font-size: 1.2rem; margin-top: 2rem; }
+  .data { opacity: .7; margin-top: 4px; }
+  code { font-size: .95em; }
+</style>
+</head>
+<body>
+<h1>Política de Privacidade — Praelo</h1>
+<p class="data">Última atualização: 15 de outubro de 2026</p>
+
+<p>O Praelo é um app Android que organiza boletos, contas e outros documentos que você importa e transforma em pendências com lembrete. As pendências ficam em <strong>perfis</strong>, como "Casa" ou "Trabalho". Esta política explica o que acontece com os seus dados.</p>
+<h2 id="resumo">Resumo</h2>
+<ul>
+  <li><strong>Sem conta, nada sai do seu celular.</strong> A conta é opcional, e os perfis locais funcionam sem ela.</li>
+  <li><strong>Com conta</strong>, você pode ter <strong>perfis sincronizados</strong>: as pendências desses perfis ficam guardadas num servidor no Brasil (São Paulo), aparecem nos seus outros aparelhos e podem ser divididas com pessoas que você convidar.</li>
+  <li><strong>Os documentos (PDFs e fotos) e o texto lido deles não saem do celular</strong>, nem nos perfis sincronizados.</li>
+  <li>A leitura dos documentos (texto e código de barras) acontece <strong>no próprio aparelho</strong>.</li>
+  <li>Você pode <strong>excluir a sua conta</strong> no app, a qualquer momento.</li>
+</ul>
+<h2 id="o-que-fica-so-no-seu-celular">O que fica só no seu celular</h2>
+<ul>
+  <li>Os arquivos que você importa (PDF e imagens) e o texto lido deles.</li>
+  <li>Os perfis locais e as pendências deles: título, valor, vencimento, favorecido, descrição, código do boleto e o histórico de mudanças.</li>
+  <li>Os lembretes de cada pendência e os ajustes, como o horário dos lembretes.</li>
+  <li>Contagens de uso para o <strong>Resumo de uso</strong> (Ajustes): só números, sem nomes, valores nem textos. Você só os compartilha se tocar em "Copiar resumo" e colar em algum lugar.</li>
+</ul>
+<p>Tudo isso fica na área privada do app no seu celular, que outros apps não acessam.</p>
+<h2 id="conta-e-perfis-sincronizados-opcional">Conta e perfis sincronizados (opcional)</h2>
+<p>Em Ajustes › Conta você pode entrar com a sua conta Google. Sem entrar, o app funciona igual, só com perfis locais.</p>
+<p><strong>O que vai para o servidor quando você entra:</strong></p>
+<ul>
+  <li>Do Google: o seu <strong>nome</strong>, o seu <strong>e-mail</strong> e um identificador da conta. O Google também informa o endereço da foto do seu perfil, que fica registrado mas o app não usa. O app não recebe a sua senha do Google.</li>
+  <li>Os <strong>perfis sincronizados</strong> que você cria ou leva para a nuvem: nome, ícone, cor e descrição do perfil, e quem são os membros e o papel de cada um.</li>
+  <li>As <strong>pendências desses perfis</strong>: título, descrição, tipo, valor, favorecido, vencimento, código do boleto, situação (pendente, concluída, cancelada), datas e quem criou ou mudou cada uma.</li>
+  <li>O <strong>histórico do perfil</strong>: quais mudanças aconteceram, quando e por quem. O histórico guarda referências, sem repetir valores.</li>
+  <li><strong>Convites</strong>: o papel, a validade e quantas vezes foram usados. O código do convite não é guardado, só uma versão embaralhada (hash) para conferir.</li>
+</ul>
+<p><strong>O que não vai para o servidor:</strong> os documentos e o texto lido deles, os perfis locais, os lembretes e o Resumo de uso. Pendências na Lixeira de um perfil local também não sobem quando você leva o perfil para a nuvem.</p>
+<p><strong>Quem vê:</strong></p>
+<ul>
+  <li>Num perfil sincronizado só seu, só você.</li>
+  <li>Num perfil dividido, os membros dele veem as pendências, o histórico e o <strong>nome</strong> de cada membro. O e-mail não aparece para os outros membros.</li>
+  <li>O convite compartilhado diz só que há um convite para um perfil no Praelo, sem o nome do perfil nem nada dele. Antes de aceitar, a pessoa convidada vê o nome do perfil e quem convidou.</li>
+  <li>Quem é removido de um perfil, ou sai dele, perde o acesso na hora, e as pendências daquele perfil saem do aparelho dessa pessoa.</li>
+</ul>
+<p><strong>Onde fica e como é protegido:</strong> o servidor é o Supabase, um serviço de banco de dados que guarda os dados em nosso nome, na região de São Paulo. A conexão é criptografada (HTTPS) e os dados são criptografados no disco pelo provedor. Cada pessoa só lê os perfis dos quais é membro, e isso é conferido pelo próprio banco a cada leitura. Não há criptografia de ponta a ponta: o provedor, por funcionar como servidor, tem acesso técnico aos dados guardados.</p>
+<p><strong>Registros técnicos:</strong> como qualquer serviço na internet, o provedor registra dados técnicos das conexões, como endereço IP e horário, para segurança e funcionamento, e os guarda por pouco tempo. O app não escreve o conteúdo das pendências nem dos documentos em registros.</p>
+<p><strong>Para que usamos:</strong> só para o app funcionar: guardar e sincronizar os perfis, mostrar os nomes dos membros e conferir convites. Os dados não são vendidos, não são usados para publicidade e não são compartilhados com terceiros além do provedor do servidor.</p>
+<h2 id="leitura-de-documentos-e-bibliotecas-do-google">Leitura de documentos e bibliotecas do Google</h2>
+<ul>
+  <li>A leitura de texto e de códigos de barras usa o ML Kit, do Google, rodando no próprio aparelho. Normalmente o ML Kit mandaria ao Google informações técnicas sobre o uso da biblioteca. O app desliga esse envio.</li>
+  <li>O leitor de códigos de barras é instalado pelo Google Play Services, um app do Google que já vem no celular, que o baixa e atualiza por conta própria. Esse download não leva nenhum dado seu.</li>
+  <li>O login usa o gerenciador de credenciais do Android e o Google, que fica sabendo que você entrou no Praelo com a sua conta.</li>
+</ul>
+<h2 id="permissoes">Permissões</h2>
+<ul>
+  <li><strong>Internet:</strong> para entrar na conta e sincronizar os perfis sincronizados. Sem conta, o app não usa a rede.</li>
+  <li><strong>Notificações:</strong> para avisar dos vencimentos. Sem ela, o app funciona igual e as pendências continuam na lista.</li>
+  <li><strong>Executar ao iniciar o aparelho:</strong> para reagendar os lembretes depois que o celular é ligado.</li>
+</ul>
+<p>O app não pede acesso a contatos, localização, câmera, microfone ou ao armazenamento do aparelho. Arquivos só entram quando você escolhe importar ou compartilhar com o app.</p>
+<h2 id="backup">Backup</h2>
+<ul>
+  <li>O backup do Google na nuvem está <strong>desligado</strong> para este app.</li>
+  <li>Em Ajustes › Backup você pode salvar um arquivo <code>.zip</code> com seus dados onde preferir. <strong>Esse arquivo não tem senha</strong>: quem tiver o arquivo consegue ver os seus documentos. Guarde em um lugar só seu.</li>
+  <li>O backup é do aparelho: inclui os documentos de todos os perfis, mas só as pendências dos perfis locais. As dos perfis sincronizados já estão no servidor.</li>
+</ul>
+<h2 id="exclusao">Exclusão</h2>
+<ul>
+  <li>Ao excluir um documento ou pendência, ele vai para a Lixeira. Num perfil local, é apagado do aparelho em 30 dias, ou na hora, se você escolher "Apagar de vez".</li>
+  <li>Num perfil sincronizado, a pendência excluída fica marcada no servidor por 30 dias, para os outros aparelhos e membros também a tirarem da lista e para poder ser restaurada. Depois, é apagada do servidor de vez, com o histórico dela. O mesmo vale para um perfil sincronizado excluído.</li>
+  <li>Sair da conta tira os perfis sincronizados do aparelho. Eles continuam no servidor e voltam quando você entrar de novo.</li>
+  <li>Desinstalar o app ou limpar os dados dele nas configurações do Android apaga tudo o que está no aparelho. Os perfis sincronizados continuam no servidor até você excluir a conta.</li>
+</ul>
+<h2 id="excluir-conta">Como excluir sua conta</h2>
+<p><strong>No app:</strong> Ajustes › Conta › Excluir conta. O que acontece:</p>
+<ul>
+  <li>Se você for proprietário de um perfil com outras pessoas, o app pede que você passe a propriedade para alguém antes, ou exclua o perfil.</li>
+  <li>Os perfis sincronizados em que você é o único membro são apagados do servidor, com as pendências deles.</li>
+  <li>Dos perfis divididos com outras pessoas, você sai. O que você registrou neles continua para os outros membros, e o seu nome deixa de aparecer: no histórico, você vira "Ex-membro". Isso mantém o registro dos pagamentos de quem continua no perfil.</li>
+  <li>O seu nome, e-mail e identificador são apagados do servidor na hora.</li>
+  <li>Os perfis locais do aparelho não mudam.</li>
+</ul>
+<p><strong>Sem o app</strong> (por exemplo, se você já desinstalou): mande um pedido para <strong><a href="mailto:praelo.app@proton.me">praelo.app@proton.me</a></strong>, a partir do e-mail da sua conta, com o assunto "Excluir conta do Praelo". A exclusão é feita em até 30 dias, com as mesmas regras acima, e você recebe a confirmação por e-mail.</p>
+<p>As cópias de segurança do provedor do servidor podem manter os dados por um período curto depois da exclusão, até serem substituídas.</p>
+<h2 id="falhas-do-app">Falhas do app</h2>
+<p>Se o app fechar sozinho, o Android pode enviar ao Google um relatório técnico da falha, sem o conteúdo dos documentos, quando você permite isso nas configurações do celular. O desenvolvedor vê esses relatórios agregados na Google Play.</p>
+<h2 id="criancas">Crianças</h2>
+<p>O app não é direcionado a crianças.</p>
+<h2 id="mudancas-nesta-politica">Mudanças nesta política</h2>
+<p>Se o app passar a enviar outros dados, por exemplo os documentos dos perfis sincronizados, esta política será atualizada antes, e o app avisará.</p>
+<h2 id="contato">Contato</h2>
+<p>Dúvidas e pedidos sobre os seus dados: <strong><a href="mailto:praelo.app@proton.me">praelo.app@proton.me</a></strong>.</p>
+</body>
+</html>
